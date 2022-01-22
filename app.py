@@ -23,9 +23,9 @@ app.add_middleware(
 class Url(BaseModel):
     url: str
 
-@app.get("/" )
-async def hell():
-    return {"hell": "go"}
+# @app.get("/" )
+# async def hell():
+#     return {"hell": "go"}
 
 @app.post("/url/")
 async def index(u: Url):
