@@ -1,0 +1,4 @@
+tensorflow
+python-whois
+fastapi
+uvicorn
